@@ -5,7 +5,7 @@
 		"Victor Porton"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:BaseHooks",
-	"license-name": "GPL2",
+	"license-name": "GPL-2.0",
 	"type": "other",
 	"AutoloadClasses": {
 		"BaseHooksHooks": "BaseHooks.hooks.php"
