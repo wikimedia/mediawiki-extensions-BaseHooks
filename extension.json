@@ -5,14 +5,23 @@
 		"Victor Porton"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:BaseHooks",
-	"license-name": "GPL-2.0",
+	"descriptionmsg": "basehooks-desc",
+	"license-name": "GPL-2.0+",
 	"type": "other",
+	"MessagesDirs": {
+		"BaseHooks": [
+			"i18n"
+		]
+	},
 	"AutoloadClasses": {
 		"BaseHooksHooks": "BaseHooks.hooks.php"
 	},
 	"Hooks": {
-		"NameOfHook": [
+		"SkinAfterBottomScripts": [
 			"BaseHooksHooks::onSkinAfterBottomScripts"
+		],
+		"UnitTestsList": [
+			"BaseHooksHooks::onUnitTestsList"
 		]
 	},
 	"ResourceFileModulePaths": {
