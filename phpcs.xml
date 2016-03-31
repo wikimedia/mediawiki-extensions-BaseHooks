@@ -5,4 +5,5 @@
 	<arg name="extensions" value="php,php5,inc"/>
 	<arg name="encoding" value="utf8"/>
 	<exclude-pattern>vendor</exclude-pattern>
+	<exclude-pattern>tests/test.inc</exclude-pattern>
 </ruleset>

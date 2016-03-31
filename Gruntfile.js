@@ -15,9 +15,6 @@ module.exports = function ( grunt ) {
 				'!node_modules/**'
 			]
 		},
-		jscs: {
-			src: '<%= jshint.all %>'
-		},
 		banana: {
 			all: 'i18n/'
 		},
@@ -29,6 +26,6 @@ module.exports = function ( grunt ) {
 		}
 	} );
 
-	grunt.registerTask( 'test', [ 'jshint', 'jscs', 'jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'jshint', 'jsonlint', 'banana' ] );
 	grunt.registerTask( 'default', 'test' );
 };

@@ -28,5 +28,6 @@
 		"localBasePath": "",
 		"remoteExtPath": "BaseHooks"
 	},
+	"config": {},
 	"manifest_version": 1
 }
