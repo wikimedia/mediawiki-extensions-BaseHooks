@@ -9,8 +9,8 @@ class BaseHooksTest extends MediaWikiLangTestCase {
 		$this->markTestSkipped(
 			'Broken test'
 		);
-		$this->setMwGlobals( 'wgBaseHooksAfterBottomScriptsStrings', array( 'XYZT test' ) );
-		$this->setMwGlobals( 'wgBaseHooksAfterBottomScriptsFiles', array( __DIR__ . '/test.inc' ) );
+		$this->setMwGlobals( 'wgBaseHooksAfterBottomScriptsStrings', [ 'XYZT test' ] );
+		$this->setMwGlobals( 'wgBaseHooksAfterBottomScriptsFiles', [ __DIR__ . '/test.inc' ] );
 	}
 	/**
 	 * @return Skin
@@ -18,7 +18,7 @@ class BaseHooksTest extends MediaWikiLangTestCase {
 	private function mockSkin( $title = 'Main Page' ) {
 		$skin = $this->getMockBuilder( 'SkinFallback' )
 			->disableOriginalConstructor()
-			->setMethods( array( 'getUser', 'getTitle' ) )
+			->setMethods( [ 'getUser', 'getTitle' ] )
 			->getMock();
 
 		return $skin;
