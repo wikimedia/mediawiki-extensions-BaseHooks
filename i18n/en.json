@@ -2,5 +2,5 @@
 	"@metadata": {
 		"authors": []
 	},
-	"basehooks-desc": "Add strings or files before end of body tag."
+	"basehooks-desc": "Add strings or files before end of <code><nowiki><body></nowiki></code> tag"
 }
