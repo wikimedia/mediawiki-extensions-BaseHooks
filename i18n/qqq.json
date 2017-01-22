@@ -1,6 +1,4 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"basehooks-desc": "{{desc|what=extension|name=BaseHooks|url=https://www.mediawiki.org/wiki/Extension:BaseHooks}}"
 }
