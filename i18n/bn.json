@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elias Ahmmad"
+		]
+	},
+	"basehooks-desc": "স্ট্রিং বা ফাইল শেষ হওয়ার আগে যোগ করুন <code><nowiki><body></nowiki></code> ট্যাগ"
+}
