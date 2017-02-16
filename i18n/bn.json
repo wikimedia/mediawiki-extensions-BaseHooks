@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elias Ahmmad"
+			"Elias Ahmmad",
+			"Aftabuzzaman"
 		]
 	},
-	"basehooks-desc": "স্ট্রিং বা ফাইল শেষ হওয়ার আগে যোগ করুন <code><nowiki><body></nowiki></code> ট্যাগ"
+	"basehooks-desc": "<code><nowiki><body></nowiki></code> ট্যাগ শেষ হওয়ার আগে স্ট্রিং বা ফাইল যোগ করুন"
 }
