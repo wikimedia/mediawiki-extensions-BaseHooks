@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
+	"basehooks-desc": "Dodaje stringove ili datoteke pre završetka <code><nowiki><body></nowiki></code> taga."
+}
