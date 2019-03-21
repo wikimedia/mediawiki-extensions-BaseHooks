@@ -7,4 +7,4 @@ If you are checking this out from Git and intend to use it, you may use the
 following commands to get it:
 
 	cd extensions
-	git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/BaseHooks.git
+	git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/BaseHooks.git
