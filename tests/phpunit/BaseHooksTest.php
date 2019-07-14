@@ -12,6 +12,7 @@ class BaseHooksTest extends MediaWikiLangTestCase {
 		$this->setMwGlobals( 'wgBaseHooksAfterBottomScriptsStrings', [ 'XYZT test' ] );
 		$this->setMwGlobals( 'wgBaseHooksAfterBottomScriptsFiles', [ __DIR__ . '/test.inc' ] );
 	}
+
 	/**
 	 * @return Skin
 	 */
