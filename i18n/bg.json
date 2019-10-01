@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"basehooks-desc": "Добавя низове или файлов преди затварящия таг <code><nowiki><body></nowiki></code>."
+}
