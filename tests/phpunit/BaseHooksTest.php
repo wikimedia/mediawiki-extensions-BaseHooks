@@ -4,7 +4,7 @@
  * @covers BaseHooksHooks
  */
 class BaseHooksTest extends MediaWikiLangTestCase {
-	public function setUp() {
+	public function setUp() : void {
 		parent::setUp();
 		$this->markTestSkipped(
 			'Broken test'
