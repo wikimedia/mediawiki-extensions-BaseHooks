@@ -17,9 +17,7 @@
 		"BaseHooksHooks": "BaseHooks.hooks.php"
 	},
 	"Hooks": {
-		"SkinAfterBottomScripts": [
-			"BaseHooksHooks::onSkinAfterBottomScripts"
-		]
+		"SkinAfterBottomScripts": "BaseHooksHooks::onSkinAfterBottomScripts"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
