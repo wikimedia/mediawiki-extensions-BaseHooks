@@ -14,6 +14,7 @@ class BaseHooksTest extends MediaWikiLangTestCase {
 	}
 
 	/**
+	 * @param string $title
 	 * @return Skin
 	 */
 	private function mockSkin( $title = 'Main Page' ) {
