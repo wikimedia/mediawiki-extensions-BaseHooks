@@ -14,7 +14,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"BaseHooksHooks": "BaseHooks.hooks.php"
+		"BaseHooksHooks": "BaseHooksHooks.php"
 	},
 	"Hooks": {
 		"SkinAfterBottomScripts": "BaseHooksHooks::onSkinAfterBottomScripts"
