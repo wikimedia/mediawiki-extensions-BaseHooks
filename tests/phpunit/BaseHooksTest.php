@@ -20,7 +20,7 @@ class BaseHooksTest extends MediaWikiLangTestCase {
 	private function mockSkin( $title = 'Main Page' ) {
 		$skin = $this->getMockBuilder( 'SkinFallback' )
 			->disableOriginalConstructor()
-			->setMethods( [ 'getUser', 'getTitle' ] )
+			->onlyMethods( [ 'getUser', 'getTitle' ] )
 			->getMock();
 
 		return $skin;
